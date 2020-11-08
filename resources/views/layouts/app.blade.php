@@ -58,7 +58,7 @@
                                     <a class="dropdown-item" href="#">
                                         My profile
                                     </a>
-                                    <a class="dropdown-item" href="#">
+                          <!--add--><a class="dropdown-item" href="{{ route('config')}}"><!--add-->
                                         Seetings
                                     </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"

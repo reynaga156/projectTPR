@@ -20,3 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+/*add*/
+Route::get('/config', 'UserController@config')->name('config');
+Route::post('/user/update', 'UserController@update')->name('user.update'); 
+/*add*/
+ 
