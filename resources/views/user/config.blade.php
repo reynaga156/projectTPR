@@ -15,7 +15,7 @@
                 <div class="card-header">My configuration page</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ user('update') }}">
                         @csrf
 
                         <div class="form-group row">
